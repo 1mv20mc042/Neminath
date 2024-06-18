@@ -1,0 +1,25 @@
+.about {
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  .about h2 {
+    background-color: #FF5733;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .about h2 {
+      font-size: 1.5em;
+    }
+  }
