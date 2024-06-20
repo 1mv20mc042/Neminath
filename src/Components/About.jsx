@@ -6,7 +6,7 @@ function About() {
     <div className="about">
       <h2>About Neminath T C</h2>
       <p>
-        Neminath TSS was first established in the year 2000 by James, with the mission of Neminath TSS was first established in the year 2007 by Neminath TSS with more than Fifteen years of experience in the tourism industry.
+        Neminath TC was first established in the year 2000 by Hitesh, with the mission of Neminath TC was first established in the year 2007 by Neminath TSS with more than Fifteen years of experience in the tourism industry.
         </p>
         <p>
         We are a professionally managed travel company based in Andheri, Mumbai specializing in custom designed Holiday Packages with clients around the globe.Holding places, people and customs through professional guides, modern transportation, quality hotels, fine restaurants and other key vendors....
