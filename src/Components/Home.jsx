@@ -1,5 +1,6 @@
 import React,{ useState } from 'react';
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 function Home() {
   const [info, setInfo] = useState('');
@@ -27,16 +28,19 @@ function Home() {
       </div>
       <div className="services">
         <h2>WHY NEMINATH T C</h2>
-        <div className="services-list">
-        {['Personalised Itineraries', 'Affordable Prices', 'Customer Support', 'Best Deals Guaranteed'].map(item => (
-          <button key={item} onClick={() => handleClick(infoMessages[item])}>{item}</button>
-        ))}
+        <div className="buttons-container">
+      <Link to="/personalised-itineraries"><button>Personalised Itineraries</button></Link>
+      <Link to="/affordable-prices"><button>Affordable Prices</button></Link>
+      <Link to="/customer-support"><button>Customer Support</button></Link>
+      <Link to="/best-deals-guaranteed"><button>Best Deals Guaranteed</button></Link>
         </div>
         <h2>OUR SERVICES</h2>
-        <div className="service-list">
-        {['Travel Management', 'Passenger Assistance', 'Consulting', 'Marketing', 'Visa'].map(item => (
-          <button key={item} onClick={() => handleClick(infoMessages[item])}>{item}</button>
-        ))}
+        <div className="service-container">
+      <Link to="/travel-management"><button>Travel Management</button></Link>
+      <Link to="/passenger-assistance"><button>Passenger Assistance</button></Link>
+      <Link to="/consulting"><button>Consulting</button></Link>
+      <Link to="/marketing"><button>Marketing</button></Link>
+      <Link to="/visa"><button>Visa</button></Link>
         </div>
         {info && <div className="info-box">{info}</div>}
       </div>
