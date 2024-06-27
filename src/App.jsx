@@ -6,13 +6,13 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Neminath from './static/Neminath.jpeg';
 import CustomerSupport from './Components/CustomerSupport';
-
 import AffordablePrices from './Components/AffordablePrices';
-
 import BestDealsGuaranteed from './Components/BestDealsGuaranteed';
 import Visa from './Components/Visa';
 import TravelManagement from './Components/TravelManagement';
 import Marketing from './Components/Marketing';
+
+import PromotionDetail from './Components/PromotionDetail';
 
 
 
@@ -30,8 +30,7 @@ function App() {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">About</Link></li>
               <li><Link to="/contact">Contact</Link></li>
-             
-            </ul>
+             </ul>
           </nav>
         </header>
         <main>
@@ -43,6 +42,7 @@ function App() {
             <Route path="/affordable-prices" element={<AffordablePrices />} />
             <Route path="/customer-support" element={<CustomerSupport />} />
             <Route path="/best-deals-guaranteed" element={<BestDealsGuaranteed />} />
+            <Route path="/promotions/:id" element={<PromotionDetail />} />
             <Route path="/travel-management" element={<TravelManagement />} />
             
             
