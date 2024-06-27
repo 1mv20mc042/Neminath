@@ -5,15 +5,15 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Neminath from './static/Neminath.jpeg';
-import PersonalisedItineraries from './Components/PersonalisedItineraries';
-import AffordablePrices from './Components/AffordablePrices';
 import CustomerSupport from './Components/CustomerSupport';
+
+import AffordablePrices from './Components/AffordablePrices';
+
 import BestDealsGuaranteed from './Components/BestDealsGuaranteed';
-import TravelManagement from './Components/TravelManagement';
-import PassengerAssistance from './Components/PassengerAssistance';
-import Consulting from './Components/Consulting';
-import Marketing from './Components/Marketing';
 import Visa from './Components/Visa';
+import TravelManagement from './Components/TravelManagement';
+import Marketing from './Components/Marketing';
+
 
 
 function App() {
@@ -39,13 +39,13 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/personalised-itineraries" element={<PersonalisedItineraries />} />
+            
             <Route path="/affordable-prices" element={<AffordablePrices />} />
             <Route path="/customer-support" element={<CustomerSupport />} />
             <Route path="/best-deals-guaranteed" element={<BestDealsGuaranteed />} />
             <Route path="/travel-management" element={<TravelManagement />} />
-            <Route path="/passenger-assistance" element={<PassengerAssistance />} />
-            <Route path="/consulting" element={<Consulting />} />
+            
+            
             <Route path="/marketing" element={<Marketing />} />
             <Route path="/visa" element={<Visa />} />
           </Routes>

@@ -29,18 +29,21 @@ function Home() {
       <div className="services">
         <h2>WHY NEMINATH T C</h2>
         <div className="buttons-container">
-      <Link to="/personalised-itineraries"><button>Personalised Itineraries</button></Link>
+        <Link to="/customer-support"><button>Customer Support</button></Link>
+        <Link to="/best-deals-guaranteed"><button>Best Deals Guaranteed</button></Link>
+      
       <Link to="/affordable-prices"><button>Affordable Prices</button></Link>
-      <Link to="/customer-support"><button>Customer Support</button></Link>
-      <Link to="/best-deals-guaranteed"><button>Best Deals Guaranteed</button></Link>
+      
+      
         </div>
         <h2>OUR SERVICES</h2>
         <div className="service-container">
+        <Link to="/visa"><button>Visa</button></Link>
       <Link to="/travel-management"><button>Travel Management</button></Link>
-      <Link to="/passenger-assistance"><button>Passenger Assistance</button></Link>
-      <Link to="/consulting"><button>Consulting</button></Link>
+      
+      
       <Link to="/marketing"><button>Marketing</button></Link>
-      <Link to="/visa"><button>Visa</button></Link>
+      
         </div>
         {info && <div className="info-box">{info}</div>}
       </div>

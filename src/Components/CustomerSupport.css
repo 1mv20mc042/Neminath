@@ -1,0 +1,105 @@
+.login-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-left {
+    flex: 1;
+    padding: 2rem;
+    background: url('https://imgak.mmtcdn.com/pwa_v3/pwa_header_assets/loginPersuassionValley.webp') no-repeat center center/cover;
+    color: white;
+  }
+  
+  .login-left h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .login-left ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .login-left li {
+    margin-bottom: 1rem;
+  }
+  
+  .login-right {
+    flex: 1;
+    padding: 2rem;
+    background-color:wheat;
+  }
+  
+  .account-type-toggle {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .account-type-toggle button {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+  }
+  
+  .account-type-toggle button.active {
+    background-color: #0073e6;
+    color: white;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+  }
+  
+  .login-form button {
+    padding: 1rem;
+    background-color: #0073e6;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:disabled {
+    background-color: #eeecec;
+    cursor: not-allowed;
+  }
+  
+  .login-with-google {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .login-with-google span {
+    margin-right: 1rem;
+  }
+  
+  .login-with-google button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+  }
+  
+  .login-right p {
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    color: #848bc2;
+  }
+  
+  .login-right a {
+    color: #0073e6;
+    text-decoration: none;
+  }
