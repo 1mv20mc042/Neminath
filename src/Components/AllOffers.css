@@ -1,0 +1,41 @@
+.all-offers-banner {
+    background-color: #662d91;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.all-offers-text {
+    font-size: 3em;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.all-offers-banner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('/path/to/your/pattern-image.png');
+    background-size: cover;
+    opacity: 0.2; /* Adjust opacity to make text readable */
+    z-index: 0;
+}
+
+/* Optional: If you want to add the random triangles as a pattern */
+.all-offers-banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><polygon points="10,10 40,10 25,40" fill="#FF7D3A"/><polygon points="60,10 90,10 75,40" fill="#EB3B85"/><polygon points="30,50 60,50 45,80" fill="#FF7D3A"/><polygon points="80,50 110,50 95,80" fill="#EB3B85"/><polygon points="10,70 40,70 25,100" fill="#FF7D3A"/><polygon points="60,70 90,70 75,100" fill="#EB3B85"/></svg>');
+    background-size: 150px 150px;
+    opacity: 0.5; /* Adjust opacity to make text readable */
+    z-index: 0;
+}

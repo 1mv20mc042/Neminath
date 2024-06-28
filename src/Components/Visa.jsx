@@ -21,12 +21,12 @@ const Visa = () => {
       <img src="https://www.visa.co.in/dam/VCOM/global/travel-with-visa/images/off-track-traveler-400x225.jpg" alt="Welcomed around the world" />
       <h2>Welcomed around the world</h2>
       <p>Wherever you find yourself, find Visa.</p>
-      <a href="https://www.visa.com" target="_blank" rel="noopener noreferrer">Pay with Visa around the globe</a>
+      
     </div>
     <div className="card">
       <img src="https://www.visa.co.in/dam/VCOM/regional/ap/india/global-elements/images/scotland-promo-1600x900.jpg" alt="Trip to Scotland" />
       <h2>Pay with Visa and stand a chance to win an all-expense trip to Scotland</h2>
-      <a href="https://www.visa.com" target="_blank" rel="noopener noreferrer">Learn more</a>
+      
     </div>
   </div>
 </div>
