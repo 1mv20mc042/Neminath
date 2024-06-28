@@ -16,6 +16,7 @@ import PromotionDetail from './Components/PromotionDetail';
 
 
 
+
 function App() {
   return (
     <Router>
@@ -44,6 +45,7 @@ function App() {
             <Route path="/best-deals-guaranteed" element={<BestDealsGuaranteed />} />
             <Route path="/promotions/:id" element={<PromotionDetail />} />
             <Route path="/travel-management" element={<TravelManagement />} />
+            
             
             
             <Route path="/marketing" element={<Marketing />} />

@@ -19,6 +19,7 @@ const Contact = () => {
           <i className="fab fa-linkedin-in"></i>
           <i className="fab fa-instagram"></i>
         </div>
+        
       </div>
       <div className="contact-form">
         <h2>Any question or remarks? Just write us a message!</h2>

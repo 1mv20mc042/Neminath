@@ -1,6 +1,7 @@
 import React from 'react';
 import './GiftPage.css';
 import { Link } from 'react-router-dom';
+
 const promotions = [
   {
     id: 'promo-1',
@@ -30,10 +31,19 @@ const promotions = [
     title: 'Air India launches non stop flights between Delhi to Phuket!',
     description: 'Direct flights from Delhi to Phuket!',
     buttonText: 'Know More'
+  },
+  {
+    id: 'promo-5',
+    image:"https://www.cleartrip.com/offers/sites/default/files/styles/deal-image/public/akasa_0.jpg?itok=N2vHjN4z",
+    title: 'Akasa launches daily flights from Chennai & Bengaluru to Port Blair',
+    description: 'New Flights Launched!',
+    buttonText: 'Know More'
   }
 ];
 
 const BestDealsGuaranteed = () => (
+  
+  
     
   <div className="promotions">
   {promotions.map((promo) => (
@@ -45,10 +55,13 @@ const BestDealsGuaranteed = () => (
         <Link to={`/promotions/${promo.id}`} className="promo-button">{promo.buttonText}</Link>
         {promo.footer && <p className="promo-footer">{promo.footer}</p>}
       </div>
+      
     </div>
   ))}
 </div>
-);
+  )
+    ;
+
 
   
 

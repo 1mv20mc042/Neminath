@@ -22,6 +22,10 @@ const promotionDetails = {
     description: 'Direct flights from Delhi to Phuket!',
     content: 'Air India has launched non-stop flights from Delhi to Phuket. Explore the beauty of Phuket with convenient flight options.',
   },
+  'promo-5':{
+    title:'Akasa launches daily flights from Chennai & Bengaluru to Port Blair',
+    description: 'New Flights Launched!',
+  }
 };
 
 const PromotionDetail = () => {
